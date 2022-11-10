@@ -1,9 +1,66 @@
 /* Add styling for your page here */
 
 .App {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 
+.button {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #636e72;
+    color: white;
+    border: none;
+}
+
+.button:hover {
+    background-color: #2d3436;
+}
+
+
+.BakeryListContainer {
+    width: 100%;
+}
+
+.BakeryList {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .BakeryItem {
-  
+    width: 33%;
+    background-color: #dfe6e9;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.BakeryItem:hover {
+    background-color: #b2bec3;
+}
+
+.BakeryItem > img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.BakeryItemContent {
+    padding: 1rem;
+}
+
+
+.CartListContainer {
+    width: 25%;
+}
+
+.CartList {
+
 }
